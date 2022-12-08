@@ -6,6 +6,11 @@ from scipy.ndimage import (generate_binary_structure,
                                       binary_erosion,
                                       iterate_structure)
 
+
+"""
+Collection of all functions
+"""
+
 def detect_stochastic_changes(audio_data):
     """ 
     This code uses the scipy library to compute the spectrogram of the audio data and detect changes in the 
