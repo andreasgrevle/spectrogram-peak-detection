@@ -147,7 +147,7 @@ def demo_comprehensive_analysis():
     print("="*60)
     
     # Try to load real audio file first
-    audio_file = "audiosample.wav"
+    audio_file = "audiosamples/voice.wav"
     if os.path.exists(audio_file):
         print(f"\nLoading real audio file: {audio_file}")
         sample_rate, audio_data = load_audio_file(audio_file)
